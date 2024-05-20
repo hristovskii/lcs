@@ -20,7 +20,7 @@ export default function EESTEC() {
                                     }} className="grow shrink rounded">
                             </div>
                             <div className="rounded border-2 border-eestec md:p-16 p-8 ml-3 flex justify-content items-center">
-                                <RiRobot2Line size={40} color="#E52A30"></RiRobot2Line>
+                                <RiRobot2Line size={40} color="#0f800f"></RiRobot2Line>
                             </div>
                         </div>
                         <div className="rounded bg-eestec mt-3 grow px-6 py-5 flex items-end lg:block hidden" style={{ height: "220px" }}
@@ -30,7 +30,7 @@ export default function EESTEC() {
                 </div>
                 <div className="basis-1/5 lg:order-2 order-1">
                     <div className="rounded bg-eestec mb-3 py-5 flex justify-center items-center">
-                        <Image src={LOGO} alt="EESTEC LC Skopje Logo" height={125} className="md:p-3 p-1"></Image>
+                        <Image src={LOGO} alt="LCS Logo" height={125} className="md:p-3 p-1"></Image>
                     </div>
                     <div style={{backgroundImage: `url(${Photo2.src})`, height: "220px",
                                  backgroundPosition: "center",
