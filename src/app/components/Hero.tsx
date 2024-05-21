@@ -2,7 +2,7 @@
 
 import Button from "./Button";
 import { MdArrowOutward } from "react-icons/md";
-import Participants from '../resources/participants.png'
+import Participants from '../resources/background1.jpg'
 import Link from "next/link";
 import { TbPick } from "react-icons/tb";
 import { FaDownload } from "react-icons/fa";

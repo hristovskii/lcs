@@ -1,13 +1,18 @@
 "use client";
 
 import Link from "next/link";
-import CALU from "@/app/resources/calu.png";
-import EESTEC from "@/app/resources/LC_Skopje_red.png";
+import CALU from "@/app/resources/logo.png";
+import background from '../resources/texture.jpg'
 import Image from 'next/image';
 
 export default function Header() {
     return (
-        <header className="bg-white px-12 w-full">
+        <header className="bg-white px-12 w-full"  style={{
+            backgroundImage: `url(${background.src})`,
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+          }}>
             <nav className="flex md:justify-between items-center justify-center">
                 <Link href={"/"}>
                     <Image src={CALU} alt="Calu Logo" width={100} height={100} className="py-3"/>
