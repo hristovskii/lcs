@@ -10,6 +10,7 @@ import { FaDownload } from "react-icons/fa";
 export default function Hero() {
     return (
       <main className="w-full px-5 py-24" style={{
+        height: "90vh",
         backgroundImage: `linear-gradient(180deg, #262626 0%, rgba(38, 38, 38, 0.5) 100%), url(${Participants.src})`,
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
