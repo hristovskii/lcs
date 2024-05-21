@@ -20,7 +20,7 @@ export default function Hero() {
               Dive in the <span className="text-eestec font-bold">LCS</span> Experience
           </h1>
           <p className="md:text-base text-sm text-slate-50 my-3 text-balance leading-none">
-          The official website for the LCS <span className="font-medium">Minecraft Server!</span>
+          The official website for the  LCS <span className="font-medium">Minecraft Server!</span>
           </p>
           <div className="lg:flex flex-row gap-14">
             <div>

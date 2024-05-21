@@ -25,7 +25,7 @@ export default function EESTEC() {
                         </div>
                         <div className="rounded bg-eestec mt-3 grow px-6 py-5 flex items-end lg:block hidden" style={{ height: "220px" }}
                         >
-                            <h3 className="text-4xl text-white font-eestec font-light">Power Your Future</h3>
+                            <h3 className="text-4xl text-white font-eestec font-light">Power Your Redstone</h3>
                         </div>
                 </div>
                 <div className="basis-1/5 lg:order-2 order-1">
