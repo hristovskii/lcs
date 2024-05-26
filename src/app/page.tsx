@@ -1,4 +1,5 @@
 import EESTEC from "./components/Eestec";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import KeyFeatures from "./components/KeyFeatures";
 import Promo from "./components/Promo";
@@ -13,7 +14,8 @@ export default function Home() {
       <EESTEC></EESTEC>
       <Statistics></Statistics>
       <Sponsors></Sponsors>
-      <Promo></Promo>
+      {/* <Promo></Promo> */}
+      <Footer></Footer>
     </>
   );
 }

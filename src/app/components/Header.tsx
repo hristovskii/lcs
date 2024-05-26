@@ -17,7 +17,7 @@ export default function Header() {
                 <Link href={"/"}>
                     <Image src={CALU} alt="Calu Logo" width={100} height={100} className="py-3"/>
                 </Link>
-                <h3 className="max-md:hidden font-eestec text-eestec text-3xl font-semibold pt-2">Power Your <span className="text-red-600">Redstone</span></h3>
+                <h3 className="max-md:hidden font-eestec text-eestec text-3xl font-semibold pt-2 ">Power Your <span className="text-red-600 ">Redstone</span></h3>
             </nav>
         </header>
     );
