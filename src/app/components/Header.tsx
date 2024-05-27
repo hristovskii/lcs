@@ -7,7 +7,8 @@ import Image from 'next/image';
 
 export default function Header() {
     return (
-        <header className="bg-white px-12 w-full"  style={{
+        <header className="bg-white px-12 w-full"  
+        style={{
             backgroundImage: `url(${background.src})`,
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",

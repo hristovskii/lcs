@@ -14,7 +14,7 @@ export default function Home() {
       <EESTEC></EESTEC>
       <Statistics></Statistics>
       <Sponsors></Sponsors>
-      {/* <Promo></Promo> */}
+      <Promo></Promo>
       <Footer></Footer>
     </>
   );
